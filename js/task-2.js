@@ -3,8 +3,6 @@ function makeArray(firstArray, secondArray, maxLength) {
 
   if (fullArray.length > maxLength) {
     return fullArray.slice(0, maxLength);
-  } else {
-    return fullArray;
   }
 
 }

@@ -1,9 +1,22 @@
-function filterArray(numbers, value) {
-  let filterNumbers = [];
+// function filterArray(numbers, value) {
+//   const filterNumbers = [];
 
-  for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] > value) {
-      filterNumbers.push(numbers[i]);
+//   for (let i = 0; i < numbers.length; i++) {
+//     if (numbers[i] > value) {
+//       filterNumbers.push(numbers[i]);
+//     }
+//   }
+
+//   return filterNumbers;
+// }
+
+
+function filterArray(numbers, value) {
+  const filterNumbers = [];
+
+  for (const number of numbers) {
+    if (number > value) {
+      filterNumbers.push(number);
     }
   }
 
